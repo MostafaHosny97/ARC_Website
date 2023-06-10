@@ -34,6 +34,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />}> </Route>
+          <Route path='/ARC_Website' element={<Home />}> </Route>
           <Route path='/about' element={<AboutPage />}> </Route>
           <Route path='/services' element={<ServicesPage />}> </Route>
           <Route path='/contact' element={<ContactPage />}> </Route>
